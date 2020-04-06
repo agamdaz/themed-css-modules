@@ -56,10 +56,11 @@ function createConfig(options) {
               }
             },{
               loader: "sass-loader", options: {
-                modules: true,
                 sourceMap: true,
-                data: `@import "${options.themes}";`,
-                includePaths: [path.join(__dirname, 'src/themes')]
+                prependData: `@import "${options.themes}";`,
+                sassOptions: {
+                  includePaths: [path.join(__dirname, 'src/themes')]
+                }
               }
             }]
         }]
