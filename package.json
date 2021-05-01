@@ -19,14 +19,14 @@
     "babel-loader": "^8.2.2",
     "bootstrap-sass": "^3.4.1",
     "css-loader": "^5.2.4",
-    "html-webpack-plugin": "^5.3.1",
+    "html-webpack-plugin": "^4.0.4",
     "mini-css-extract-plugin": "^1.6.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^4.14.1",
     "parallel-webpack": "^2.6.0",
-    "sass-loader": "^10.1.1",
-    "webpack": "^5.36.2",
-    "webpack-cli": "^4.6.0",
-    "webpack-dev-server": "^3.11.2"
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "react": "^17.0.2",
